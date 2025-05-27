@@ -1,13 +1,13 @@
-from openai import OpenAI
+import openai
 from fastapi import FastAPI
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
 from pinecone import Pinecone
 
-# Load keys
+# Load environment variables
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index(os.getenv("PINECONE_INDEX_NAME"))
 
@@ -19,11 +19,11 @@ class Question(BaseModel):
 @app.post("/ask")
 def ask_question(payload: Question):
     # Step 1: Get embedding
-    embedding_response = client.embeddings.create(
-        input=payload.question,
+    embedding_response = openai.Embedding.create(
+        input=[payload.question],
         model="text-embedding-3-small"
     )
-    user_embedding = embedding_response.data[0].embedding
+    user_embedding = embedding_response["data"][0]["embedding"]
 
     # Step 2: Query Pinecone
     results = index.query(
@@ -36,7 +36,7 @@ def ask_question(payload: Question):
     context = "\n---\n".join([match["metadata"]["text"] for match in results["matches"]])
 
     # Step 4: Get GPT response
-    completion = client.chat.completions.create(
+    completion = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Answer only using the context below."},
@@ -44,4 +44,4 @@ def ask_question(payload: Question):
         ]
     )
 
-    return {"answer": completion.choices[0].message.content}
+    return {"answer": completion["choices"][0]["message"]["content"]}
