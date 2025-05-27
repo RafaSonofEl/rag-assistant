@@ -45,3 +45,10 @@ def ask_question(payload: Question):
     )
 
     return {"answer": completion["choices"][0]["message"]["content"]}
+
+from fastapi.responses import HTMLResponse
+
+@app.get("/chat", response_class=HTMLResponse)
+def get_chat_ui():
+    with open("chat_ui.html", "r", encoding="utf-8") as f:
+        return f.read()
