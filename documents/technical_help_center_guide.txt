@@ -1,0 +1,273 @@
+Purpose
+Product Operations should use this document for guidance on how to create and update articles in the Help Center. 
+
+***Please note that this document is for only technical style guidance (eg. image sizes, headings, etc.) and should not replace the Product Write Guidelines. 
+What’s included in this doc
+When should Product Operations write their own articles and when to loop UX/Content Strategy?
+When to publish articles in relation to the launch date?
+How to create and update articles?
+Should I publish a new article or merge the information into an existing article?
+What should I name the article?
+How should I format the article?
+Example Format
+Headings
+Anchors
+Writing the how-to
+Suggestions for writing content
+Capitalization of proper nouns
+Images, GIFs, and videos
+Images
+GIFs
+Videos
+How do I get content translated to Spanish?
+How do I see the metrics for HC articles?
+Helpful Resources
+Exemplars
+Articles from our own Help Center
+Articles from other Help Centers
+Other Help Centers
+
+
+When should Product Operations write their own articles and when to loop UX/Brand Strategy?
+
+Product Operations should write and publish articles without Content Strategy involvement when the article is a straightforward how-to. 
+
+Content Strategy should be involved when the article includes some value proposition framing, if the feature entails change management, or if there’s sensitive information that we want to be careful about framing.
+
+If you’re not sure or if you want a reviewer, it doesn’t hurt to ask!
+
+Example articles
+Needs Content Strategy to write and/or review
+Using Mock Student View
+Product Operations can write on their own (following this guidance)
+Exempting students from projects
+
+
+When to publish articles in relation to the launch date?
+Articles should be published one day before the launch date. If you must publish an article earlier, make sure to caveat that this feature or functionality is not yet available on the platform. Make sure to go back to the article on the day of the launch to remove the caveat. 
+How to create and update articles?
+To create a new article
+Make sure you’re signed into Zendesk
+From the top, white menu, click Add
+
+3. Click Article 
+4. Make sure your article is published in the right section and visible to everyone. Also please make sure to uncheck “Open for comments” 
+
+
+**You’ll also need to make sure the article is tagged for the relevant help widget in the platform. 
+
+
+To update an existing article
+Sign in to https://www.summitlearning.org/login/interstitial2
+Go to the article you want to update
+Click Edit Article from the white menu at the top of the page 
+
+
+Note: While you're there, you should check to see if the labels are accurate. Also, make sure the "Open for Comments" box is unchecked.
+
+
+To delete an existing article
+Go to the article
+Click Edit Article on the top left
+Click the arrow on the Save dropdown 
+
+Click Unpublish
+To reorder articles or sections
+Sign in to https://www.summitlearning.org/login/interstitial2
+From any article, click Edit Article to get to the Editing Pages
+Click the third Icon from left nav to get to the Arrange Articles page
+Drag and drop existing articles or sections
+How to add the article to the help widget?
+As your superuser, go to the page in the platform that the article should be for
+Click the Help Widget
+Copy the help tag
+
+Go to the help center article and click Edit
+Scroll to the Labels section and paste the tag in
+
+
+
+
+
+Should I publish a new article or merge the information into an existing article?
+Please try to merge content into existing articles whenever you can.  Therefore, the more that all relevant pieces of information are together in one place, the more helpful it is for teachers when they’re actually on that page. 
+It’s not yet in our teachers’ mental model to go to the Help Center to search. We’ve learned from Success Managers that the Help Center is not a place that teachers go to to find information. In addition, our bounce rate per page is ~67%, which means most of our teachers are leaving after viewing just one article.
+Instead, the articles are resources that are sent out by Success Managers (and TSS) that teachers look at to get an answer and leave quickly. 
+
+As much as possible, please also try to keep the existing URL
+ i.e.  if there’s already an article for that particular how-to, instead of deleting an article and creating a new one, use the same article and update it or move it to a different location. 
+What should I name the article?
+Page titles-- use short, gerund (-ing) based statements or simple questions
+Ex: “Posting announcements to students”
+Use “Overview” when the article is describing a core feature  
+Ex: “Project overview”
+Keep keywords close to the front (remove excess words such as “how to”)
+Don’t: “How to post announcements to students”
+Do: “Posting announcements to students”
+Use sentence case for easier readability 
+Don’t: “How to Exempt Students from Projects”
+Do: “Exempting students from projects”
+
+How should I format the article?
+Try to make your article as easy to scan as possible. You can achieve this by chunking your information into relevant pieces with headings/subheadings and making those chunks easy to access with anchors at the top. 
+
+Example Format
+
+	Article title: Mentor Check-ins
+[if possible, include an “overview” of what this article is about, who it’s for, or any important general notes”]
+Anchor: 
+“In this article:
+How do I start a check-in? 
+How do I move a check-in?”
+Subsection title: How to start a check-in (H2)
+Subsection title: How do I move a check-in?
+
+Headings
+Please follow H2 for major headings and H3 for major subheadings to ensure that our content is accessible for screen readers and easily scannable. 
+
+
+
+⭐️ Tip: Use the Tota11y Chrome Extension to check if your headers are accessible!
+Anchors
+To use anchors in your article:
+Highlight the text and click the hyperlink button from the toolbar
+Click Heading
+Select the heading you want to anchor to
+Click Link 
+
+
+
+Writing the how-to
+
+In step-by-step instructions, capitalize and bold navigation and button labels as they appear in-platform. 
+
+Ex: 
+Click “Setup” from the left menu
+Click “Teachers”
+I.e., / “Summit Learning Program” vs “the program offers a variety of…”
+“Summit Learning Platform Team” vs “the team who works on the platform….”
+Suggestions for writing content
+If you’re creating content independently, here are a few best practices that will help you create clear and effective content:
+Cut out any unnecessary words--write, cut, revise, and then see what else you can cut!
+Use 5-7th grade level vocabulary/reading level (use Hemingway App to check for complex sentences and length )
+Frontload the most important messages 
+Ie. the first words, first sentences, first paragraphs should be the most important points (this is because readers tend to scan in an F-shape)
+Do:  “We’re looking to interview teachers about their Platform experiences so that we can continue to make the right improvements (interviews will be held over Zoom video calls).” 
+The key message is “looking for interviews” so that is put in the front of the sentence.
+Don’t: “The Summit Learning Platform Team wants to talk with teachers about their experiences on the Platform to help us make improvements. We'll ask teachers to complete a 15 minute exercise and participate in a 45-minute interview over Zoom (a web-based video conference).”
+The key message gets lost and there’s some over-communication at the wrong moment. The 15-minute exercise and 45-minute interview details can come at a later touchpoint. 
+Use active voice 
+Do: “We’re investigating the problem now.”
+Don’t: “The problem is being investigated.”
+Avoid jargon and technical terms 
+“Site” → “Your school”
+“SIS” → “Student Information System”
+“Scaffold” → “Support”
+Be consistent with your terms 
+For example, if you use “course in the beginning, don’t suddenly use “section” in the end
+Sound like a person explaining something to a friend (use conversational style)
+
+
+Capitalization of proper nouns
+Capitalize proper names of platform products, features, pages, tools, and teams when directly mentioned. 
+
+From the 2020-2021 Base Curriculum Style Guide, here are some examples of nouns that should be capitalized: 
+
+
+Additional Focus Area
+Base Curriculum
+Challenge Focus Area
+Checkpoint
+Cognitive Skill(s)
+All the individual names of the Cognitive Skills
+Cognitive Skills Rubric
+Content Assessment
+Cool-Down
+Diagnostic Assessment, or Diagnostic
+End-of-Unit Assessment
+Final Product
+Focus Area
+Habits of Success, or Habits
+Also capitalize all the individual Habits (Resilience, Sense of Belonging, etc.)
+Math Unit, or Unit
+Power Focus Area
+Summit Learning Platform 
+Warm-Up
+
+
+
+Images, GIFs, and videos 
+Images
+Use Annotate App for screenshots and 
+Screenshots should be left-aligned (not centered)
+Size of the screenshot should be around ~600 x 400 (use best judgement based on the screenshot itself. For example, a screenshot of a notification does not need to be ~600x400)
+Use standard color (blue or orange) for annotations
+Try NOT to annotate with text on your screenshots (if you feel you need to annotate, you should use a GIF or video because your screenshot needs explanation). 
+Annotate with these colors:
+Dark backgrounds: 
+Light backgrounds: 
+⭐️Tip: You can use the color picker in Annotate to select these colors for annotations. 
+
+
+GIFs
+If you have instructions that are over 7 steps, it might be helpful to include a GIF. 
+
+To create a GIF, you can use Giphy Capture. After you’ve created the GIF, you can upload it into the article as you would a screenshot. 
+Videos
+[Script process]
+Content strategy should be involved in the script writing to ensure the messaging is consistent with 
+
+Uploading the video
+If you have any videos that need to be uploaded to the Summit Learning Youtube Account, talk to Content Strategy-- she’ll upload them for you so that you can grab a link for your article. 
+
+How do I get content translated to Spanish?
+
+In the past, we’ve translated parent facing articles-- usually grading or very general platform information resources. You’re welcome to translate other resources but please note that the Learning Space has translated resources already available so you may want to check there first. In addition, traffic to the Spanish resources in the Help Center is light so you should decide if this resource absolutely requires translations. 
+
+
+
+Types of request
+Turnaround time
+Process
+MotherTongue (Marcomms vetted service)
+Full resource 
+3-day turnaround from the time of the estimated approval
+Reach out to Content Strategy for a connection to their representative
+Spanish Speaker on the TSS team
+Review 
+Light editing 
+One week 
+Note: Person may not always be available for your request
+
+
+
+
+
+
+How do I see the metrics for HC articles?
+
+Talk to Content Strategy to get access to Google Analytics. Helpful metrics to track: 
+
+Page views in a session, combined with page duration
+Pages visited per session
+
+
+For more information, check out:  https://www.k15t.com/blog/2018/01/how-metrics-help-us-measure-help-center-effectiveness 
+
+Helpful Resources
+Product Writing Guidelines
+20-21 Base Curriculum Style Guide 
+How to engage with CS/UXW on ProdOps content needs
+
+Exemplars
+Articles from our own help center
+Using the Mock Student View
+The content is broken into relevant sections. There’s a small piece of value proposition in the beginning but otherwise, the content is straightforward and is easily scannable.
+Articles from other help centers
+Apple’s File Apps article
+This article is broken into different sections with easy anchors at the top of the page. The headings follow the right hierarchy, making the content easy for the reader to scan and easily find important information.
+Other help centers
+Google Classroom’s Help Center
+They’ve kept the number of articles at a manageable size so that the reader can scan through each section. They use simple and easy to understand language. Content is short and to the point.
+Support Videos from other Help Centers 
+

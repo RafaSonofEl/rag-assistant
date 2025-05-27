@@ -1,0 +1,14 @@
+Collecting pinecone-client
+  Using cached pinecone_client-6.0.0-py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: certifi>=2019.11.17 in ./venv/lib/python3.12/site-packages (from pinecone-client) (2025.4.26)
+Collecting pinecone-plugin-interface<0.0.8,>=0.0.7 (from pinecone-client)
+  Using cached pinecone_plugin_interface-0.0.7-py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: python-dateutil>=2.5.3 in ./venv/lib/python3.12/site-packages (from pinecone-client) (2.9.0.post0)
+Requirement already satisfied: typing-extensions>=3.7.4 in ./venv/lib/python3.12/site-packages (from pinecone-client) (4.13.2)
+Requirement already satisfied: urllib3>=1.26.5 in ./venv/lib/python3.12/site-packages (from pinecone-client) (2.4.0)
+Requirement already satisfied: six>=1.5 in ./venv/lib/python3.12/site-packages (from python-dateutil>=2.5.3->pinecone-client) (1.17.0)
+Using cached pinecone_client-6.0.0-py3-none-any.whl (6.7 kB)
+Using cached pinecone_plugin_interface-0.0.7-py3-none-any.whl (6.2 kB)
+Installing collected packages: pinecone-plugin-interface, pinecone-client
+
+Successfully installed pinecone-client-6.0.0 pinecone-plugin-interface-0.0.7

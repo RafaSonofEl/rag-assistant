@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pine-client
+Version: 0.2.0
+Summary: This module provides the core layer for python interface for the pinejs API
+Author: Balena
+Author-email: info@balena.io
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typing-extensions (>=4.5.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Pinejs Client #
+
+This module provides the core layer for python interface for the pinejs API.

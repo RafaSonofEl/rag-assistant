@@ -1,0 +1,241 @@
+Mentoring Overview
+1:1 Mentoring is one of the important pillars of Summit Learning. We know how important it is for children to be truly connected with and cared for by the adults at their school. Through Summit Learning, all students are paired with a mentor who acts as their advocate both inside and outside of the classroom.
+A mentor can be a teacher, a school leader, or other administrators at a student’s school. Mentors meet with their students 1:1 regularly and use the Mentoring page in the Platform to support their students in their progress towards their short-term and long-term academic and personal goals.
+The Mentoring page in the platform gives teachers more flexibility, predictability, and control over their mentoring schedule–doing so enables teachers to more easily integrate mentoring time into what’s happening in their classrooms. 
+Teachers can also see insights around how they are implementing mentoring with their students, as well as data snapshots on how their students are progressing; as a result, teachers can easily know which students to prioritize for check-in scheduling, how to best prepare for each check-in, and how to make sure that every student gets the mentoring time they need.
+Within the Mentoring page, mentors can:
+Schedule regular check-in meetings
+Set a check-in agenda
+Follow up on student goals
+Take notes
+Leave notes for students or for themselves about the students
+Review past check-ins
+See consolidated data, such as academic data and days since last check-in
+________________________________________________________________________
+How do I create and adjust my Mentoring Schedule? 
+The Summit Learning Platform mentoring scheduler gives teachers more flexibility, predictability, and control over their mentoring schedule. This enables teachers to more easily integrate mentoring time into what’s happening in their classrooms. 
+There are three views in the scheduler: the List view, Week view, and 2 Weeks view. 
+New Mentors
+Returning Mentors
+Edit Recurring Schedule
+Add a Check-in
+New Mentors
+If you are a new mentor, we recommend that you try the List view before creating a schedule. The List view shows two columns: Remaining Check-ins and Completed Check-ins. Students are first shown in the Remaining Check-ins list and are moved to the Completed Check-ins list after they’ve completed the check-in. The list will restart when all students are moved from the Remaining Check-ins to the Completed Check-ins list. 
+
+You can sort the list by First Name, Last Name, or Date of Last Check-in by clicking the Sort button on the bottom of each list. 
+
+________________________________________________________________________
+Returning Mentors
+If you are a returning mentor, you may use the week views to create and organize recurring check-in schedules. You can do this by:
+Clicking on Create My Schedule.
+
+After adding the time you want to spend each day on mentoring, you can create your master schedule. You can drag and drop students to adjust your schedule from this window.
+
+________________________________________________________________________
+Edit Recurring Schedule
+To edit the recurring schedule, click Settings at the top of the page. 
+
+Click into the Recurring Check-Ins tab and select Every Week or Every 2 Weeks. Drag and drop the students to the new day you will meet with them.
+
+If you haven’t completed your check-in with the student already, your schedule will update automatically.
+________________________________________________________________________
+Add a Check-in
+If you do not want to change the recurring schedule, you can instead add an additional check-in for a student outside of their regular schedule. Y
+You can add the check-in by clicking Add Check-in under the date in the Week or 2 Weeks view. 
+
+________________________________________________________________________
+How do I set up my mentor section and assign mentees?
+For schools that use enrollment codes:
+1. Go to Mentoring from the left navigation menu
+2. Click Create Mentor Section (if setting up for the first time)
+3. Select Mentor as the subject of the Section
+4. Fill out a name for your mentor section, click Next
+5. Keep the course as Mentor; click Next
+
+6. Select who will teach this section. If you select that someone else will teach this section, type in the name or email address of the person who will teach the section.
+7. Click Save
+To assign Mentees:
+1. Click Assign Mentees in the upper right-hand corner
+2. Type in students’ emails at the bottom search bar
+3. Click Add “Student” to the “Mentoring Section” at the bottom to add
+________________________________________________________________________
+For schools that use Clever: 
+On the left-hand menu, select Setup  Screen_Shot_2018-02-14_at_2.24.39_PM.png
+Click Sections 
+Click the pencil icon to the right of the Mentoring section 2018-09-26_at_4.31_PM.png
+Select the Courses tab
+Select Add Courses to this Section
+From the Subject dropdown, select Mentor
+Click Add to Course
+________________________________________________________________________
+To add or remove students from an existing mentor section: 
+Note: For schools that use Clever, reach out to your admin to add or remove students from your mentor section.
+On the left-hand menu, select Setup
+Click Sections
+Click the pencil icon to the right of the Mentoring section 2018-09-26_at_4.31_PM.png
+Click the Students tab
+To remove a student, hover over the student’s name and select the trash icon 
+  6. To add a student to your mentor section, enter the student’s name in the Add Students to this Section box and select Add 
+
+________________________________________________________________________
+How do I use the Mentoring page? 
+Learn how to use the Mentoring page to: 
+View Student Goals 
+View Mentor Insights
+Use the Mentee Profile Page
+________________________________________________________________________
+View Student Goals 
+Teachers or mentors can view student goals for any given day.  You can view student goals by Course, by Student Progress Views, or by an individual student.
+From the Mentoring page, select the Goals tab:
+Click the dropdown in the upper-right hand corner to view students’ “Goals Today,” “Goals This Week,” “Goals Last Week,” or “Goals Next Week.”
+
+________________________________________________________________________
+View Mentor Insights
+
+The Mentoring Insights bar displayed horizontally across the top of the Mentoring page contains three insights of your choice. By default, the following three insights are displayed:
+Overdue Check-Ins
+Weekly Practice Metrics
+Overdue Power Focus Areas
+To customize the three insights displayed, click Customize from the top right of the page.
+Select any three of the ten available insights:
+Overdue Check-Ins
+Weekly Practice Metrics
+Percentage of students with recent check-ins
+Checklist coverage
+Courses with overdue projects
+Red checkpoints
+Overdue Power Focus Areas
+Incomplete course grades
+Courses with <70% cog skill average
+Courses with <70% concept skill avg
+________________________________________________________________________
+Use the Mentee Profile Page
+To see more details about your mentee, click on your mentee’s name from the List, Week, or 2-Week views.
+
+On the mentee profile page, you can:
+Start a mentor check-in
+Record notes that are private from your mentee
+Additionally, you will see details about:
+How many times you have met with your mentee this year
+Type of check-in agenda used with your mentee
+Preview the content of the Mentoring agenda
+________________________________________________________________________
+Mentor Check-ins
+This article will cover how teachers can check in with mentees. If you need to adjust your Mentor Check-in schedule, please see How do I create and adjust my Mentoring Schedule?. 
+How do I check-in with my mentee?
+How do I record a past check-in?
+How does my mentee prepare for a check-in?
+How do I access my mentees’ check-in pre-work?
+________________________________________________________________________
+How do I check-in with my mentee? 
+From the Mentoring page, click on the mentee’s name
+From the mentee’s page, click the Start button
+
+3. The check-in agenda will open from the right side of the page. You will see:
+A timer
+Suggested questions or tasks for you to complete in order to deeply engage your student
+Your Mentee’s pre-submitted responses to the check-in agenda
+A place to take notes, which can be shared with the student or kept private from the student
+4. The check-in side panel will stay up until you click Finish Check-In. You can minimize the agenda by clicking on the arrow on the left
+5. When you’ve finished your check-In, click Finish Check-In
+________________________________________________________________________
+How do I record a past check-in?
+After you’ve finished your first set of mentoring and can view the Week and 2 Weeks view, you can record past or offline check-ins.
+1. Find the date of the past or offline check-in.
+
+2. Click on Record Check-In.
+
+3. Fill in the name of the student, date of the past or offline check-in, and the duration of the check-in.
+4. Optionally, write notes to record the check-in and select whether you would like to share the note with your mentee.
+5. Click Save.
+________________________________________________________________________
+How does my mentee prepare for their check-in?
+Students will see a banner on their Week and Year pages reminding them to prepare for their Mentoring check-in. Check-in pre-work is always editable by students by click back into the pre-work using the edit pencil icon on the Mentoring banner.
+
+If a student is scheduled to have a check-in on that day, they will be immediately notified to prepare for their check-in by completing the pre-work, if applicable.
+To complete their check-in pre-work, students will:
+1. Navigate to the Week page or Year page.
+2. Click Begin Check-In Pre-Work from the blue mentoring banner.
+
+3. A panel will slide out from the right side of the screen with a series of questions to prepare for the mentoring check-in.
+4. Click Done to complete the mentor check-in pre-work. 
+________________________________________________________________________
+How can I access my mentee’s check-in pre-work?
+Prior to each mentoring check-in, students prepare for sessions by completing pre-work within the platform. Check-in pre-work is always editable by students up until the time of the check-in and is viewable by all of their teachers and mentor. Students are not able to access their pre-work after they complete the check-in.
+To access your mentee’s check-in pre-work,
+1. From the Mentor page, click on the mentee’s name
+2. From the mentee’s page, you can view the mentee’s responses to the pre-work on the right-hand side
+
+________________________________________________________________________
+Types of Mentoring Notes
+This article will cover how teachers can check in with mentees:
+Check-in Notes
+Mentor Notes
+Progress Page Notes
+What Types of Mentoring Notes can I see while Viewing As?
+________________________________________________________________________
+Check-in Notes
+Check-in Notes are notes that mentors take during their Mentoring check-in sessions. By default, these notes are not shared with the mentee, but mentors can choose to check the “Share” checkbox while writing the note to make the notes visible to the mentee.
+
+To take notes during a check-in:
+1. From the Mentor page, click on the mentee’s name
+2. From the mentee’s page, click the Start button to start the check-in
+3. At the bottom of the check-in fly-out, you can add notes in the Notes box
+
+4. If you’d like to share the notes with your mentee, check off the “Share with…” checkbox. If you do not want to share the notes with your mentee, then keep the “Share with…” checkbox unchecked
+
+5. Once the check-in is over, click Finish Check-in
+6. The notes you recorded during the check-in can be found on the left hand-side of the mentee’s Mentor page
+
+7. If you selected “Share with…” during the check-in, your mentee can view these notes on their Progress Page
+________________________________________________________________________
+Mentor Notes
+Mentor Notes: On a student’s Mentoring Tab, mentors can write general notes about students in their mentor section. These Mentor Notes are only viewable to mentors of the student and platform users with admin permissions.
+
+
+________________________________________________________________________
+Progress Page Notes
+Progress Page Notes: Teachers and mentors of a student can write notes on the student’s Progress Page, and have the option to share these notes with the student. Students can view shared Progress Page Notes, in addition to shared Check-in Notes, on their Progress Page. 
+
+________________________________________________________________________
+What Types of Mentoring Notes can I see while “Viewing As”?
+When viewing as a student or another teacher at your site, you will only be able to view the Check-in Notes and check-in pre-work answers for students that you have access to. If the user you’re viewing as has access to additional students’ notes or pre-work, you will not be able to view them.
+When viewing as another teacher at your site and attempting to view the Mentoring or Progress tab for a student that you don’t currently teach or mentor, you will see the following:
+All check-ins for the student show “There are no notes from this check-in”
+All student check-in pre-work answers appear as “You skipped this”
+No Mentor Notes are shown
+
+When viewing as a student that you do not currently mentor or teach, the banner on the student’s Week page appears as “You’d all set with your next mentoring check-in“, regardless of whether or not they have completed the pre-work for their next check-in.
+
+Admin are able to view all students’ Mentor Notes and check-in pre-work answers when viewing other teachers or students at their site.
+________________________________________________________________________
+How do I post an announcement to my mentees?
+1. Click Announcements in the left navigation bar
+2. Select Post an announcement to students
+
+3. Select Which students should see your announcements? and select the mentor section that you want to post an announcement to.
+4. Enter the Title of the announcements
+5. Enter the Body text of the announcements
+6. Include an option Link, if applicable
+7. Click Save
+All mentees within your selected mentor section will see your announcements
+________________________________________________________________________
+Mentoring Data
+Teachers can export Mentor Check-in History from the Mentoring Page.
+
+From the Mentoring page:
+1. Click My Mentees 
+2. Click the Export dropdown
+3. Select Mentor Check-In History (by Student) 
+This CSV is organized by Student so that students have multiple rows for each check-in. The CSV includes:
+Student Last Name 
+Student First Name
+Mentor Last Name
+Mentor First Name
+Date of Check-In
+Check-In Duration (Minutes)
+Urgent Check-In?
+Agenda Type 
+Pre-Work Content
+Teacher Note(s)
+Private Note

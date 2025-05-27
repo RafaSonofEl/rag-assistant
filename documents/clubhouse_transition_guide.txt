@@ -1,0 +1,511 @@
+Clubhouse: How-to Guide for Scrums
+What’s in this document? 
+Preface 2 Core Principles 2 Basic Building Blocks of Clubhouse 3 
+Workflows 6 LP Engineering Workflow: 6 Using Story templates within your workflow 6 Estimations using Story Points 6 Design Workflow 7 Product Operations Workflows 8 Moving Stories between workflows 8 Data Science Workflow 9 
+Managing Sprints with Clubhouse Iterations 9 
+Continuous Planning with Clubhouse 10 Long term backlog 10 Naming Conventions 11 Best Practices 11 Quarterly planning backlog 11 Naming Conventions 12 Technical backlogs 12 Naming Conventions 12 Checkpoints 12 
+Guidelines for moving Asana work items into Clubhouse 13 Migrating Feature Requests from Asana to Clubhouse (Step-by-Step) 13
+Managing Items for Dogfooding (Step-by-Step) 17 Managing Launch Checklist for Product Launches (Step-by-Step) 20 
+R&R for scrum participants 24 Scrum Rituals Overview 24 Core Routines 24 Standup 24 Sprint Planning 25 Backlog Grooming / Refinement 25 Demo / Review 25 Retrospective (Retro) 26 Optional Routines 26 Scrum of Scrums 26 Task Decomposition 26 Example Sprint Schedule 27 
+FAQs 28 Why are we moving to Clubhouse? 28 How do I get an account on Clubhouse? 28 How do I include my Gradient liaisons in Clubhouse / get them access? 28 How do we get third-party partners access to Clubhouse (e.g. accessibility 
+vendors, Lodestone, etc.) 29 Is there an internal Slack channel if I need help with Clubhouse? 29 Are there functional team ambassadors, in addition to PMs being ambassadors to their scrum teams? 29 Is there an integration available for Slack? 29 How do I view only “LP” related work? 29 
+Preface 
+Clubhouse is a new tool that the Learning Platform has embraced, which offers a unique opportunity for us to define “how” we work together. Starting January 4, 2021, the Learning Platform will transition to Clubhouse for software development projects. 
+This document has been co-authored by several cross-functional partners: Product Management: Anthony Sarni 
+Design: Stan Rapp, Paul Derby, Catherine Winfield 
+Product Operations: Ellie Hoban, Raphael Tshitoko 
+Engineering: Shruti Krishnagiri 
+Data: Ashley Zappitell 
+Many others have contributed to this document through sharing of ideas and suggestions.
+Core Principles 
+● No PII in Clubhouse..zilch..! 
+● We have broad agreement of terms & processes proposed in this doc as a way to allow rolled up, cross-scrum insights. 
+● While we strive for consistency across scrums, we will not impose draconian levels of sameness for the sake of it. 
+● The processes outlined herein may be neither perfect nor comprehensive. We aim for continuous improvement. 
+Basic Building Blocks of Clubhouse 
+Clubhouse is organized into Milestones, Epics, Projects, Stories and Workflows
+Milestone 
+Milestones are collections of Epics, which in turn are
+We map Milestones to our AY release cycle:
+Clubhouse Term 
+Clubhouse Definition 
+How we use it
+
+
+
+
+
+collections of Stories 
+Milestones represent a group of features or a very large initiative ● Take several months to 
+complete 
+● Often map to quarters and can be used for roadmapping ● Individual Milestone pages 
+provide Burndowns & Velocity charts for high level progress views against initiatives
+● (1) Pre-Launch AY 20-21 => 5/25/20 - 8/3/2020 (first 
+Monday in Aug) 
+● (2) Launch AY 20-21 => 
+8/4/2020 - 10/31/2020 
+(Halloween) 
+● (3) Steady State AY 20-21 => 11/1/2020 - 3/17/2021 
+(St. Patrick's Day) 
+● (4) Finish Strong AY 20-21 => 3/18/21 - 5/31/21 
+(Memorial Day) 
+● (5) Pre-Launch AY 21-22 => 6/1/2021 - 8/2/2021 (first 
+Monday in Aug) 
+Avoid using milestones for general hierarchical organizing.Those should be managed at the Epic level. 
+Pro Tip: Use “Categories” to filter on “LP”. By default, both Along and LP milestones are listed.
+Story 
+[Alert: Potentially unhelpful definition from Clubhouse.io] Stories are the standard unit of work.
+A Story is roughly equivalent to an Asana task 
+We primarily use Clubhouse Stories as User Stories in Engineering workflows. 
+We’ve defined Story templates to make it easy to create Stories with a predefined structure.
+Epic 
+An Epic is a collection of Stories that represent larger initiatives
+Collection of Stories 
+Pro Tip: Set “Groups” on Epics to represent your scrum team.
+Project 
+Projects typically map to 
+collections of people (such as Frontend, Backend, Mobile, Devops, etc) 
+Projects do not have start and end dates.
+Our scrum teams are Projects in Clubhouse. E.g.: Inclusive 
+Learning, Notebooks, Curriculum, etc.
+Workflow 
+A workflow (different from Epic Workflows) allows you to simply
+We have workflows defined for Engineering, Design and Product
+
+
+
+
+
+and clearly describe the process through which tories move, from creation to 
+completion
+Operations
+Group
+Groups a collection Of 
+users so that they can be associated to work within Clubhouse.
+ 
+‘Groups’ will be renamed to ‘Teams' once the feature is out of private beta
+Groups can be used to filter Epics for a cleaner, narrower view of what a scrum team is working on. 
+Groups can also be used at the Storyor Iteration level. 
+In addition, use Groupsto: 
+● View, filter, and organize 
+workbyGroupassociations 
+●ViewtheStatusofall Team members 
+●@-mentionaGroup
+
+
+
+Workflows 
+A Workflow is the process through which Stories move, from creation to completion. 
+Engineering Workflow: 
+For consistency across scrums in LP, all Projects (scrum teams) will use the following workflow states (swim lanes). 
+Unstarted 
+● Backlog/Unscheduled - Quarterly product backlog will be maintained here. This will include prioritized bugs and prioritized feature requests. The backlog will be maintained in descending order of priority. In other words, the Stories on the top are the highest priorities. We do the same for bugs and feature requests 
+● Ready for Development - When design specs are ready and the project has been scoped, sized, has an acceptance criteria and a Definition of Done, the story is eng ready. The assigned engineer can now move this story to Started. 
+Started 
+● In Development - The assigned engineer is actively working on the Story. ● Code Review - Development is complete. The Story is now ready for code review. ● Ready for Deploy - Merge complete. 
+Done 
+● Completed - Ready to move to ProdOps workflow. 
+Using Story templates within your workflow 
+For Engineering workflows, we’ve defined the following Story templates: ● Baseline User Story Template 
+● Generic Bug Template 
+Choose ”Create Story from Template” when creating a new Story. Use the Github integration to see Stories changing state. 
+Estimations using Story Points 
+Clubhouse provides several different estimate scales. We will use the Fibonacci sequence for making estimates, rather than a linear scale. 
+Estimations Best Practices:
+● Teams drawing work from the same product backlog should normalize (have the same view) on what constitutes story points. 
+● For teams working on completely separate product backlogs, normalization is not only hard, it’s not a useful exercise to go through. 
+Use these templates for consistency within Projects. 
+Design Workflow 
+Unstarted 
+● To Do - Default column for all incoming tasks 
+Started 
+● Research Spikes - Diverging by conducting well-scoped exploratory research ○ Sync with DS on existing data 
+● Scoping - Establishing boundaries/constraints 
+● Concepting - Diverging by generating ideas and evaluating concepts 
+○ Evaluative research 
+● Design Development - Converging by polishing the most promising idea ○ Collaborate with Content Strategy 
+○ Evaluative research 
+○ Present at Design Critique 
+● Visual QA 
+○ Collaborate with Design Systems Team
+○ Accessibility check-in 
+○ Final approval from Content Strategy 
+○ Present designs to Data Science 
+○ Evaluative research 
+○ Prepare (acceptance criteria) and run handoff 
+Done 
+● Completed - Accomplished tasks live here, ready to be moved to another workflow 
+Product Operations Workflows 
+Product Support workflow (Launch Checklist) - Ellie 
+● Unstarted - checklist items that have not yet started (Default state) 
+● Started - checklist items that are in progress 
+● Done - checklist items that are complete 
+Feature Requests workflow (Feature Request Tracking) - Ellie & Raphael ● Triage - incoming Feature Requests (Default state) 
+● Backlog - Reviewed Feature Requests, but determined not to be worked on by eng ● Selected for Development - Feature Requests prioritized for eng development 
+Bug Tracking (Workflow in Clubhouse TBD - Scoping Beginning After Thanksgiving) - Melissa 
+Bug tracking will continue in Asana for now. We still have a few procedural kinks to iron out and some automations to put into place before we can move these over to Clubhouse. 
+Moving Stories between workflows 
+Use Case Scenario: Story in Engineering workflow needs design 
+In the Engineering Workflow: 
+1. Create a “is blocked by” Story relationship with a title that indicates this is a design related Story 
+2. For this new design Story, change the Project to an appropriate Project in the Design Workflow. This will move this Story into the Design workflow, but leave the original Story in the Engineering workflow for visibility. 
+3. When the Story reaches the “Complete” phase in the Design Workflow, the “is blocked by” Story relationship automatically shows a check mark.
+Data Science Workflow 
+Unstarted 
+● High-level: backlog of upcoming analyses stored in personal analytics roadmap ● Granular: Store individual data questions in spreadsheet (Along example) Pre-Feature Conception 
+● Drive feature hypotheses using exploratory data or gaps in reporting metrics ○ e.g. Math classes don’t use Notebooks. Why? Let’s build a new tool for Math homework. 
+● These analyses typically come from the analytics roadmap / individual data explorations (aligned with all XFN, including GL) 
+Feature Conception 
+● With UXR and PM, evaluate (1) impact, (2) reach, (3) confidence 
+● Evaluate audience boundaries (for whom?) 
+● Support design & eng decisions with background data 
+Pre-launch 
+● Align with XFN (PM, Eng, Design UXR, and GL) on measurement plan ○ Note: think of measurement plan as DS + UXR (quant + qual), not just quant ○ Generate impact metrics (negative & positive) 
+● Clear pilot design / pilot schools with LE-XFN 
+● If possible, set up monitoring dashboard pre-launch 
+Post-launch 
+● Early monitoring checks to ensure launch is technically successful (# users, etc.) ● Priority 1: set up reporting metrics as defined in the measurement plan ● Priority 2: exploratory metrics to dig deeper 
+● Weekly individual or group signals check-in to monitor feature (DS/PM responsibility) ● Partner with UXR to shape research plan depending on metrics 
+● At end of evaluation period, pilot readout to discuss results and next steps Done 
+Managing Sprints with Clubhouse Iterations 
+An Iteration is a defined, time-boxed period of development for a collection of Stories. In Clubhouse, Iterations can span multiple Epics, Projects, and Workflows. 
+Iterations Best Practices: 
+● Operate in a 2-week timebox 
+● Use internally standardized nomenclature to name your Iterations by team ● Leverage State filters on the Iterations page 
+● All filtering on individual Iteration pages is reflected in URL params for easy sharing
+Continuous Planning with Clubhouse 
+Long term backlog 
+Main Actors: PMs, EMs, DMs, DS Leads, Product Ops Leads 
+Once roadmapping is complete, Product Managers/Product Leads create an Epic (large body of work) containing Stories. Stories at this level may not be well defined or have the level of detail that are required for tight scoping. Long term backlogs may also contain Stories that aren’t tied to a specific milestone. We recommend leaving Milestone undefined at this level for this Epic. Having one Epic per team to represent all Stories provides a single place to view, track, and report on. 
+Don’t forget to set the Group to the “Learning Platform”. At the Story level, the “Group” can be set to a scrum team, or a named group containing a specific set of individuals.
+Naming Conventions 
+Epic: 
+[Team Name]: Product Backlog 
+E.g. Curriculum Adoption: Product Backlog 
+Best Practices 
+● PMs routinely groom this backlog (and all other backlogs) 
+● Ensure higher priority Stories bubble up to the top 
+● Use priority labels for further prioritization 
+Quarterly planning backlog 
+Main Actors: PMs, EMs, DMs, DS Leads, Product Ops Leads 
+Stories from the long term backlog should move to a near term quarterly planning backlog as they start nearing execution readiness. At the discretion of the PM, the Stories can be maintained in one single quarterly backlog or organized as a set of backlogs. 
+This can be done using Epics. At this level, it is important to have a defined Milestone for each Epic. Usually, the Epic(s) will contain a subset of Stories from the 6-month backlog. New Stories may also be directly defined here. All Stories show up within the Project in Unstarted → Backlog 
+
+Pro Tip: With the Project view, if the backlog starts running long, Spaces can be used to filter backlog stories into buckets of related stories.
+Naming Conventions 
+Epic: 
+[Team Name]: [Product Surface Area] 
+E.g. Curriculum Adoption: Base Curriculum 
+Technical backlogs 
+Main Actors: EMs, TLs, PMs 
+Create technical backlogs as Epics 
+Naming Conventions 
+Epic: 
+[Team Name]: [Technical Surface Area] 
+E.g. Curriculum Adoption: General Technical Backlog 
+Checkpoints 
+In December 2020, the Learning Platform introduced Checkpoints to review individual projects. In Clubhouse, Epics have workflow states which correspond to checkpoints. In the Epic view, set the state to the appropriate checkpoint.
+
+Guidelines for moving Asana work items into Clubhouse 
+Migrating Feature Requests from Asana to Clubhouse (Step-by-Step) 
+1. Create an Epic for each Scrum’s Feature Requests (“[Team Name]: Feature Requests”). To create a new Epic, select the Epics tab → Create Epic button. 
+
+2. Create a Project for Each Scrum’s Feature Requests (“[Team Name]: Feature Requests”). To create a new Project, select the More tab → Projects → Create Project 
+3. Create a Story within the Feature Requests workflow. To create a new User Story, select the Stories tab → Workflow dropdown → Feature Requests → Create Story button
+
+4. Add the title of the Feature Request & description of tickets (*excluding all PII*) 5. Assign the story to your scrum’s Feature Request Project & Epic
+6. Add the Zendesk links of related tickets as External Links. This will allow you to see a count of the # of Zendesk tickets related to a Feature Request on the Workflow page. 
+7. Add Labels with the surface area and any other relevant information (i.e. priority, Surface Area) 
+
+8. If you have a feature request that is related to more than one scrum, then add a Label for each related scrum (i.e. if a feature request was related to Notebooks and inclusive Learning, then add a label for both.) 
+9. To streamline this process, create Story Template(s). To do this, when saving a user story, select the dropdown on the Create Story Button and then select Save as New Template. Here is an example of the Inclusive Learning Feature Request story template:
+
+10. Once the template is created, you can then create stories using the template by selecting the dropdown on the “Create Story” button → hover over Create Story → select the template.
+
+11. Once the stories are created, you can easily view them in a list view by going to the Epics tab → search for your [Scrum Name] Feature Requests Epic and view all FRs. 
+Managing Items for Dogfooding (Step-by-Step) 
+Before the Dogfooding Session: 
+1. Create new Epic for “[Feature Name] Dogfooding” 
+2. Add scrum team label to Epic 
+3. Set the Epic dates to the Dogfooding date 
+
+During the Session: 
+1. Have participants create feedback as individual stories on the Epic
+2. Assign stories to scrum team’s Project (in the Eng Workflow) After Session/Triaging: 
+1. PM & team review the stories in the Epic & prioritize
+2. For stories that are prioritized to be worked on by eng, change the Epic to the launch’s Epic 
+3. For stories that will not be worked on by eng, track in your scrum’s backlog epic
+
+4. Once all of the stories are moved out of the Dogfooding Epic, you can archive the Epic for housekeeping. 
+Managing Launch Checklist for Product Launches (Step-by-Step) 
+Walkthrough Launch Checklist: 
+1. Create a new Project for each scrum team, if not yet created. To do this, go to the More tab, select Project, then select the “Create Project button in the top left”. You can title the new Project “[Team Name]: Launch Checklists”.
+
+2. Go to the Stories tab and select the Product Support Workflow 
+
+3. Create stories for each of the story templates that are within the Launch Checklist Template section. (Note: the “[Template] Launch Checklist” story will be the parent story and the other 3 stories will be related to it - see step 5)
+
+4. When creating each story, change the title of the story to “[Feature Name]” instead of “[Template]” and assign the story to the Project you created in Step 1 and to the Epic your team is using from this launch.
+
+5. Once all of the necessary stories are created for the launch, go to the ‘[Feature Name] Launch Checklist’ story and add story relationships with the other 3 stories. 
+
+6. Now, on the main ‘[Feature Name] Launch Checklist’ story, you should see all of the launch checklist stories related to it and can use this story to assign launch checklist items & set due dates for the launch! 
+R&R for scrum participants 
+Scrum Rituals Overview 
+This section describes a standard complement of meetings in Agile software development. 
+One of the four values in the Agile Manifesto is people over process, which means that teams should do what works best for them. It’s the final score that matters. While we want to have a common set of working habits across the organization, there’s room for flexibility within that spectrum of standardization. This is to say: take the ceremonies below as a starting point and then work from there.
+Core Routines 
+Standup 
+Purpose: Team check in where everyone gives a quick update across three questions: 
+1. What I did yesterday 
+2. What I’m working on today 
+3. Do I have any blockers? 
+Standup usually takes place mid-morning and should be finished in 15 minutes or less. If there’s additional conversation, you can add it to the “parking lot” which is visited at the end, after everyone has shared their update. This meeting is the heartbeat of any scrum team and is essential for keeping relationships close while ensuring that work stays on track. 
+Occurrence: Daily in the morning (~10:30am) except on sprint planning days. 
+Who: 
+- Required: All XFN team (though different functions may drop in/out of the standup rotation as needed) 
+- Optional: N/A 
+Sprint Planning 
+Purpose: Most scrums operate on a two week sprint cycle. This means that every two weeks, the team gets together and agrees on what they’ll achieve in the coming sprint by prioritizing a set of tickets into a sprint backlog. In mature product orgs, teams are able to predict and execute with good accuracy, which is valuable in planning and reporting -- it takes time to get there, so if sprint goals are over/under at first, don’t sweat it. 
+Sprint planning is all about making sure the team is aligned and ready to go with the work on their plate for the next couple of weeks. This ceremony can be done in a few different flavors depending on how strictly the team is adhering to agile. It can be a casual check in for kanban/scrumban teams or it can be a lot more buttoned up if you’re deeply committed and using points to calculate velocity. 
+Occurrence: Once every two weeks immediately before starting a new sprint or at the end of a sprint in flight. It’s most commonly done at the start of a new sprint because the end of sprint tends to be busy with demo/retro. 
+Who: 
+- Required: PM, PS, TL, Eng, DS 
+- Optional: Design
+Backlog Grooming / Refinement 
+Purpose: Maintaining a clearly prioritized and internalized backlog is essential to high performing feature teams. In Grooming (also called Refinement), the team will meet and ensure that the backlog is prioritized and that items at the top are both clearly understood and ready to be worked. Grooming is also a good time to address new, redundant, and outdated tickets. 
+Occurrence: Weekly 
+Who: 
+- Required: PM, PS, TL, Eng 
+- Optional: Design, DS 
+Demo / Review 
+Purpose: Teams should share their accomplishments after finishing a sprint. Depending on the venue and audience, they might choose to showcase only user-facing work or dig into backend/DS. Most importantly, it’s a time for the team to celebrate what they’ve achieved. It’s also a great opportunity for different teammates to get up and speak in front of an audience. 
+Occurrence: End of sprint 
+Who: Entire scrum team with managers, key stakeholders, and other interested parties in attendance 
+Retrospective (Retro) 
+Purpose: At the end of a sprint, the team gets together and talks about what went well and opportunities to do better. Retro is the most important ceremony because it’s the root of continuous improvement and is the cornerstone of every single successful scrum team. Here’s an example retro template that can be adapted as needed. 
+Occurrence: 60 minutes at the end of sprint 
+Who: Everyone involved with sprint work, including teammates like design depending on what was worked over the last couple weeks.
+Optional Routines 
+Scrum of Scrums 
+Purpose: Leads from each scrum get together and share any cross team dependencies or notable info that could affect another team. This is basically a standup for key people on each scrum to attend. Again, the goal is to keep people informed and ensure that any conflicts are resolved as proactively as possible so that things keep running smoothly and without disruption. 
+Occurrence: Varies (often 1-2x a week), usually right after stand up in mid morning. 
+Who: 
+- Required: PM, PS, and TL on each scrum 
+- Optional: Design, UXR, GPMs, Eng Mgrs 
+Task Decomposition 
+Purpose: Task “Decomp” is all about making sure that each ticket is broken down into clearly understood and workable tasks. This ceremony is especially valuable for junior engineers because sometimes it can be tricky to consider all moving pieces prior to building something, which can affect sizing and ultimately delivery schedule. It should be done collaboratively where the team talks through each task together and everyone has a voice in thinking about what needs to be done, with the accountable developer ultimately owning the work. 
+Note that depending on team preference, this can be combined with other ceremonies like grooming or sprint planning but at first it’s best to keep as a distinct meeting and then cancel/adjust as needed. Generally speaking, the ambiguity caused by unclear work is worse for a team’s wellbeing than the 30min collectively spent to ensure work is well understood. 
+Occurrence: Weekly 
+Who: 
+- Required: PM, PS, TL, Eng 
+- Optional: Design, DS 
+
+
+
+
+
+Example Sprint Schedule
+10am 
+Sprint 
+Planning
+Standup 
+/ SOS
+Standup 
+Standup 
+Standup 
+Standup 
+Standup 
+/ SOS
+Standup 
+Standup 
+Demo / 
+Review
+11am
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3pm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Retro
+4pm 
+
+
+
+
+
+
+Grooming 
+
+
+
+
+
+
+
+
+Task 
+Decomp
+
+
+5pm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 1 
+Week 2
+Wed 
+Thu 
+Fri 
+Mon 
+Tue 
+Wed 
+Thu 
+Fri 
+Mon 
+Tue
+
+
+FAQs 
+1. Why are we moving to Clubhouse? 
+As it stands, it is often really hard to easily answer 
+● What is our shared understanding of the "rhythm" of the school year? ● What are we delivering and what are the critical things in play for a given period? ● When are critical things due and where are they in their lifecycle? 
+● What’s on track vs. off track? 
+There needs to be cross-scrum visibility and dependency management -- and the ability to pitch in and help across scrums. This need is especially heightened given our cross scrum work on our shared goals. In order to get this visibility, we need some common processes and a tool purpose-built for software project management -- which will help us define how we work together. 
+From a product development perspective, we want to be able to track things like Sprints, User Stories, Story dependencies, Backlog Mgmt (at Product level and Sprint level). In order to start developing insights into product development, the ability to see burndown charts, track velocity, lead time, and cycle time become important. To support our shift to continuous planning, we also want to be able to track team progress towards a given milestone. While Asana is a good project management tool, it leaves much to be desired as a tool for software project management. In September and October, we did a pilot with the Inclusive Learning team and after the pilot, we determined that Clubhouse met our needs. 
+. 
+2. How do I get an account on Clubhouse? 
+Our goal is to get SSO enabled on Clubhouse once the contract is in place. Until then, please use this link: 
+https://app.clubhouse.io/invite-link/5ed19772-22e8-441f-9c08-c47eabb4a230 
+3. How do I include my Gradient liaisons in Clubhouse / get them access? 
+Our Gradient liaisons can get access to Clubhouse using the invite link above. All Gradient team members will be able to access Clubhouse via Okta once the integration is complete. Until then, invite Gradient scrum team liaisons on an as-needed basis. Shruti is currently working with Joy Knox to determine access.
+4. How do we get third-party partners access to Clubhouse (e.g. accessibility vendors, Lodestone, etc.) 
+Lodestone currently will only need access to Asana until we move bugs over to Clubhouse. We will determine access for third-party vendors on a case-by-case basis going forward. 
+5. Is there an internal Slack channel if I need help with Clubhouse? 
+Yes. Reach out to #help-clubhouse-edu on Summit Learning slack with any questions. #help-clubhouse is also available CZI-wide for non-education specific questions. 
+6. Are there functional team ambassadors, in addition to PMs being ambassadors to their scrum teams? 
+Yes. The ambassadors for functional teams are: 
+● Engineering team: Shruti & Inclusive Learning eng team 
+● ProdOps team: Melissa Hansen, Ellie for Product Specialists, Raphael for Teacher Support Specialists 
+● PM team: Anthony Sarni 
+● Design team: Stan Rapp 
+7. Is there an integration available for Slack? 
+There are many integrations that are available for Clubhouse. One of them is Slack. Projects on Clubhouse can be integrated into a Slack channel for updates. We’ve tested this out on Curriculum Adoption. Please reach out to Matt Atwater if you’d like to enable this integration for your Project. 
+8. How do I view only “LP” or “scrum team” related work? 
+Since we share one combined workspace called czi-edu, by default, we will see LP and Along work together. Clubhouse has recently released a feature called “Teams” (currently called “Groups”) which lets us set Groups at the Epic and Story level. Choose the scrum team(s) in the Groups dropdown. In the Milestones view, “Categories” can be used to filter on LP vs Along

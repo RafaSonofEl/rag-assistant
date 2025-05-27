@@ -1,0 +1,140 @@
+Specialized Support Profiles & Specialist’s Hub Overview
+What are Specialized Support Profiles?
+Specialized Support Profiles give support specialists and teachers shared visibility into a student’s areas of needed support, strengths, and progress. Specialized Support Profiles are designed to help support students that receive targeted support (i.e. interventions) or support through an Individualized Education Program (IEP), 504 Support plan, or English Language Development program. These profiles centralize detailed information about each student’s support areas and provide specialists and teachers a space to directly coordinate support strategies within the platform. As a result, teachers and specialists can make more informed decisions about providing differentiated support that drives each student’s growth. With Specialized Support Profiles, teachers and support specialists get:
+Shared visibility and easy access to relevant information 
+Teachers and specialists can see how one another is planning and implementing supports for each student.
+Teachers and specialists can easily access key reference data (e.g., MAP data, student progress in Projects/Units) to help identify appropriate supports and challenges.
+Teachers get automatic recommendations for which resources to assign to students in projects and math units, based on the learning needs that specialists identify for each student. 
+Ability for teachers and specialists to communicate and collaborate 
+In addition to having a shared view of support details, teachers and specialists can also communicate with one another about these details in the platform.
+Teachers and specialists can leverage one another’s expertise by sharing recommendations, exchanging resources, and asking questions of one another leading to more coordinated, cohesive, and targeted approaches to supporting each student.
+What is the Specialist’s Hub?
+Specialist’s Hub
+Specialized Support Profiles are created by support specialists—an assigned role in the platform—via the Specialist’s Hub. The Specialist’s Hub provides additional features designed to meet the specific needs of support specialists, such as creating student groups, communicating with other educators, documenting their work, and updating and maintaining a student’s Specialized Support Profile. With the Specialist’s Hub, support specialists get:
+A dedicated place to organize and document their work
+Specialists can group and monitor the progress of students based on the types of support needed and do so in a way that compliments how they routinely work with students.
+Specialists have access to a historical record of decisions and communications around each student’s areas of needed support, strengths, and progress so that this information is on-hand when it’s most helpful.
+Specialists can populate the high-impact information within a student’s Specialized Support Profile that equips teachers to make more informed differentiated support decisions during Project/Unit time.
+To learn more details, visit the “What are Specialized Support Profiles & the Specialist’s Hub?” Learning Space resource.
+________________________________________________________________________
+How Do I Use the Specialized Support Profiles?
+This article will cover more information on:
+How do I know which students have Specialized Support Profiles?
+How do I view Student Support Profile details?
+How do I view Student MAP Data?
+How do I send and receive Messages and Resources?
+How will I know if an update has been made to a Specialized Support Profile?
+________________________________________________________________________
+How do I know which students have Specialized Support Profiles?
+Students who are part of Specialized Support Groups have their own Specialized Support Profile in the platform. These profiles can be accessed by any specialist or educator who teaches these students. As a teacher, you can view the Specialized Support Profile of any student that is in at least one of your classes. (Learn more about how specialists set up their Specialized Support Groups here.)
+To view which students have Specialized Support Profiles:
+1. Click any course
+2. Click on the Students tab
+3. In the Support Profile column, students with a checkmark next to their name have a Specialized Support Profile
+
+If a student changes to another site, the student’s Specialized Support Profile will follow the student and will be visible as long as the student is added to a Support Group at the new site. 
+________________________________________________________________________
+View Specialized Support Profile Details
+To view Specialized Support Profile details:
+1. Click any course
+2. Click on the Students tab
+3. Review the far right column Support Profile (a check box in the column indicates that a Specialist has created a Specialized Support Profile for the student)
+
+4. Click the checkbox indicator for the student
+
+5. View the Specialized Support Profile
+
+Specialists can enter information within the Defined Learning Needs and Areas to Support section of a student’s profile. All teachers who teach the student can view these sections of the profile. The resource recommendations provided to teachers when assigning differentiated resources in projects are based on the Areas of Support that a Specialist indicates on a student’s Specialized Support Profile.
+Students do not have access to their Specialists Student Profile.
+For more information about the Support Areas and best practices, check out this resource in the Learning Space.
+________________________________________________________________________
+View Student MAP Data
+Within each student’s Specialized Support Profile page is a MAP Results section. 
+
+This section displays the details of a student’s Northwest Evaluation Association (NWEA) Measures of Academic Progress (MAP) Growth Reading and Math assessments results, including historical data, so that you can easily analyze a student’s growth trends. The student’s last 4 math and reading MAP test results are displayed in the table.
+If a student’s MAP results show “MAP data is not available”, this means that the student does not have MAP results to display. 
+Further information on MAP testing can be found here. For more information about the MAP Data section and best practices, check out this resource in the Learning Space.
+________________________________________________________________________
+Send Messages & Resources
+Teachers and specialists can use that Messages & Resources section to share recommendations, exchanging resources, and asking questions of one another leading to more coordinated, cohesive, and targeted approaches to supporting each student.
+Who can see these messages?
+Notes and messages are viewable by all specialists or teachers who have access to a student’s Specialized Support Profile. 
+To post in the Messages & Resources section:
+1. Go to a student’s Student Support Profile
+2. Navigate to the Messages & Resources section of the profile
+
+3. Select to upload an attachment
+4. Select to insert a hyperlink
+5. Click Post
+After a message has been posted, you can Edit or Remove by selecting the three dots next to the message.
+
+For more information about the Messages & Resources and best practices, check out this resource in the Learning Space.
+________________________________________________________________________
+How do I know if an update has been made to a Specialized Support Profile?
+Since the Specialized Support Profile is a space for teachers and specialists to collaborate and communicate with one another about the details on a student’s profile, it is important for teachers and specialists to be aware when an update has been made to a Specialized Support Profile.
+All teachers and specialists who have access to a student’s Specialized Support Profile will receive a notification in their avatar in the bottom left corner of the platform when updates are made to the student’s profile.
+
+Specialists can also easily view when a Specialized Support Profile was last updated, through their list view on the Specialist’s Hub. In the “Last Activity” column of their list view, the time of the last update to the profile is displayed.
+
+________________________________________________________________________
+How Do I Use the Specialist’s Hub?
+On this article you will learn more about:
+How do I set up my Specialist’s Hub?
+How do I use the Specialist’s Hub?
+How do I filter my view of the Specialist’s Hub?
+How do I create groups of students in my Specialist’s Hub?
+How do I enter details into Specialized Support Profiles?
+________________________________________________________________________
+How do I set up my Specialist’s Hub?
+Users with the Admin and/or the Specialist role permissions can access the Specialist’s Hub, but only users with the Specialist role can edit information on students’ Specialized Support Profiles. (Learn more about how users with administrator permissions can enable the Specialist role here.)
+1. Go to the Specialist’s Hub tab from the left navigation menu
+
+2. Information about Specialized Support Profiles will pop-up. Read about Specialized Support Profiles and click “Next”
+
+3. Search and select students for whom you’d like to create profiles and click “Next
+
+4. Select one student’s profile to add information and click “Go to profile
+
+5. You’ll now see that student’s profile! Enter information within the Defined Learning Needs and Areas to the Support section of a student’s profile
+6. You’ve created a Specialized Support Profile—all teachers who teach this student will see this information!
+
+________________________________________________________________________
+How do I use the Specialist’s Hub?
+Only users with the Specialist role have access to the Specialist’s Hub. (Learn more about how users with administrator permissions can enable the Specialist role here.)
+
+When clicking on the Specialist’s Hub tab as a Specialist, you will see a list of all of the Specialized Support Profiles for students that you have added to your Hub.
+
+For each student, you can see the most recent message posted on their Specialized Support Profile Page, their Grade Level, and the time of the last update to their profile.  
+________________________________________________________________________
+How do I filter my view in the Specialist’s Hub?
+You can filter the view of your Specialist’s Hub to more easily manage your students. To filter:
+1. Select the Filter dropdown at the top
+2. Select and enter details for the filter that you want to apply
+
+3. If you want to add an additional filter, click +Add Filter
+
+4. To remove a previously selected filter, click the X on the right hand side
+
+________________________________________________________________________
+How do I create groups of students in my Specialist’s Hub?
+You can create groups of students that are in your Specialist’s Hub to more easily manage the students that you support.
+To create a new group:
+1. Select the Create New dropdown in the upper right corner and then select Create New Group
+
+2. Fill out What would you like to call this Specialized Support Group? and click Next (Note: do not include PII within the name of your group)
+3. Search and select students that you would like to add to your group and click Create Group
+4. You can see which groups your students are in by viewing the Support Groups column in the Specialist’s Hub
+
+To add or remove a student from a group:
+1. Select the checkbox next to the student(s) you want to add to or remove from a group
+2. Click Manage Profiles
+3. Select if you would like to remove or add the student(s) to support groups, or remove from your Hub
+
+________________________________________________________________________
+How do I enter details into Specialized Support Profiles?
+Specialized Support Profiles can only be created and edited by a Specialist. If you need to create or edit a Profile, please contact your school’s platform admin to be assigned this role. 
+To access an already created student’s Specialized Student Profile,
+1. Click on the “Specialist’s Hub” in the left navigation bar
+2. Click on the name of the student
+Within the Specialized Support Profile page, Specialists can enter information within the Defined Learning Needs and Support Areas section of a student’s profile. All teachers who teach the student can view these sections of the profile. 
+For more information about the Support Areas and best practices, check out this resource in the Learning Space.
