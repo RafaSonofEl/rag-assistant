@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Assistant Chat</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+    .container {
+      width: 100%;
+      max-width: none;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    .chat-header {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #222;
+      background: #f0f0f0;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+    .chat-box {
+      min-height: 15px;
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: #fafafa;
+      transition: height 0.3s ease;
+    }
+    .message {
+      margin-bottom: 1rem;
+    }
+    .user {
+      font-weight: bold;
+      color: #0077cc;
+    }
+    .assistant {
+      color: #333;
+    }
+    .input-row {
+      display: flex;
+      gap: 0.5rem;
+    }
+    input[type="text"] {
+      flex: 1;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="chat-header">
+      Do you have any questions regarding this guided resource? Test out AI-assistance here!
+    </p>
+    <div class="chat-box" id="chat"></div>
+    <div class="input-row">
+      <input type="text" id="question" placeholder="Type your question here..." />
+      <button onclick="sendQuestion()">Submit</button>
+    </div>
+  </div>
+
+  <script>
+    async function sendQuestion() {
+      const question = document.getElementById("question").value;
+      const chat = document.getElementById("chat");
+
+      if (!question) return;
+
+      chat.innerHTML += `<div class='message'><span class='user'>You:</span> ${question}</div>`;
+      document.getElementById("question").value = "";
+
+      const response = await fetch("/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question })
+      });
+
+      const data = await response.json();
+      chat.innerHTML += `<div class='message'><span class='assistant'>Assistant:</span> ${data.answer}</div>`;
+      chat.scrollTop = chat.scrollHeight;
+    }
+  </script>
+</body>
+</html>
