@@ -49,6 +49,20 @@
     .assistant {
       color: #333;
     }
+    .feedback {
+      margin-top: 0.5rem;
+    }
+    .feedback button {
+      margin-right: 0.5rem;
+      background-color: #eee;
+      border: none;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .feedback button:hover {
+      background-color: #ccc;
+    }
     .input-row {
       display: flex;
       gap: 0.5rem;
@@ -103,8 +117,20 @@
       });
 
       const data = await response.json();
-      chat.innerHTML += `<div class='message'><span class='assistant'>Assistant:</span> ${data.answer}</div>`;
+      chat.innerHTML += `
+        <div class='message'>
+          <span class='assistant'>Assistant:</span> ${data.answer}
+          <div class='feedback'>
+            <button onclick="submitFeedback('up')">👍</button>
+            <button onclick="submitFeedback('down')">👎</button>
+          </div>
+        </div>
+      `;
       chat.scrollTop = chat.scrollHeight;
+    }
+
+    function submitFeedback(rating) {
+      console.log("User rated answer:", rating);
     }
   </script>
 </body>
